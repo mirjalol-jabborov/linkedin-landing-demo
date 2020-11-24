@@ -1,0 +1,203 @@
+body {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+nav .in-logo-center img {
+    height: 70px;
+}
+nav .float-right-navbar-start {
+text-align: right;
+}
+nav .float-right-navbar-start span a{
+    text-decoration: none;
+    font-size: 20px;
+}
+nav .float-right-navbar-start span {
+     margin: 10px;
+    position: relative;
+    top: -50px;
+    transition: 0.3s all;
+}
+nav .float-right-navbar-start #bir-span-nav-index a {
+    color: #666;
+}
+nav .float-right-navbar-start #bir-span-nav-index {
+    right: 30px;
+    padding: 5px;
+}
+nav .float-right-navbar-start #bir-span-nav-index:hover {
+    background-color: #ddd;
+}
+nav .float-right-navbar-start #bir-span-nav-index2{
+    color: rgb(0, 89, 255);
+    border: solid 1px rgb(0, 89, 255);
+    padding: 7px 20px;
+    border-radius: 25px;
+}
+nav .float-right-navbar-start #bir-span-nav-index2:hover {
+    border: rgb(0, 89, 255) solid 2px;
+}
+nav .float-right-navbar-start #bir-span-nav-index2 a {
+    color: rgb(0, 89, 255);
+}
+.ojph h1 {
+    font-size: 47px;
+    color: rgb(0, 89, 255);
+    font-weight: 500;
+}
+/* .ul-start-end ul li {
+    list-style: none;
+    font-size: 20px;
+    margin-top: 20px;
+    border: solid #ddd 1px;
+    width: 350px;
+    padding: 9px;
+}
+.ul-start-end ul li span {
+    float: right;
+}
+.ul-start-end ul {
+    margin-left: -33px;
+}
+.ul-start-end ul li a {
+    text-decoration: none;
+    color: #444;
+} */
+.ul-start-end form input {
+    display: block;
+}
+.ul-start-end {
+    width: 360px;
+}
+.ul-start-end form input{
+    outline:none;
+    font-size: 15px;
+    padding: 13px;
+    width: 100%;
+}
+.ul-start-end form span a {
+    text-decoration: none;
+    color: #555;
+}
+.ul-start-end form span a:hover {
+    border-bottom: solid 1px #004182;
+    color: #004182;
+}
+.ul-start-end form input, .ul-start-end span a {
+    margin: 10px 0 10px;
+}
+.ul-start-end form input.submit-form-page-nav {
+    outline: none;
+    width: 100%;
+    display: block;
+    font-size: 24px;
+    color: #fff;
+    background-color: #005fbe;
+    padding: 13px;
+    margin: 10px 0 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top:20px;
+}
+.form-index-orr {
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+    color: #666;
+}
+.ul-start-end span p a  {
+    border: none;
+}
+.ul-start-end span p a:hover {
+    text-decoration: none;
+    border-bottom: none;
+}
+.ul-start-end {
+    float: left;
+    z-index: 10;
+}
+.float-right-img img {
+    float: right;
+    height: 620px;
+    z-index: 1;
+    position: relative;
+    top: -170px;
+}
+.new-back-2 {
+    background-color: rgb(248, 242, 242);
+    width: 100%;
+    /* height: auto; */
+    margin-top: 350px;
+    z-index: -90;
+}
+.index-2-page-2-shunaqa {
+    padding-top: 160px;
+}
+.index-2-page-2-shunaqa .chapdagi-maydon-in-index-uzb #page-2-in-index-1 {
+    font-weight: 500;
+    font-size: 40px;
+}
+.chapdagi-maydon-in-index-uzb {
+    /* width: 280px; */
+    text-align: center;
+}
+.ongdagi-maydon-in-index-uzb {
+    /* border: 2px solid #000; */
+    position: relative;
+    width: 100%;
+    /* height: 700px; */
+}
+.ongdagi-maydon-in-index-uzb span p {
+    display: block;
+    font-weight: 400;
+    color: #555;
+}
+.ongdagi-maydon-in-index-uzb a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px;
+    font-size: 25px;
+    border-radius: 25px;
+    background-color: rgb(228, 228, 228);
+}.ongdagi-maydon-in-index-uzb p {
+    display: inline-block;
+}
+@media only screen and (max-width: 1189px) {
+    .float-right-img img {
+        display: none;
+    }
+    .class-media-url {
+        background: url(https://static-exp3.licdn.com/sc/h/3m4tgpbdz7gbldapvl63mrnxz);
+    }
+  }
+
+  @media only screen and (max-width: 520px) {
+    .in-logo-center{
+        display: block;
+        margin-bottom: 40px;
+        float: none;
+    }
+    .ongdagi-maydon-in-index-uzb a {
+        font-size: 20px;
+    }
+    .ojph h1 {
+        font-size: 29px;
+    }
+    .ul-start-end {
+        width: 230px;
+    }
+    nav .float-right-navbar-start span a {
+        font-size: 15px;
+    }
+  }
+  @media only screen and (max-width: 650px) {
+    
+  }
+
