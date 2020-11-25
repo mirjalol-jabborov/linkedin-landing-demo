@@ -126,6 +126,7 @@ nav .float-right-navbar-start #bir-span-nav-index2 a {
 .float-right-img img {
     float: right;
     height: 620px;
+    /* height: 700px; */
     z-index: 1;
     position: relative;
     top: -170px;
